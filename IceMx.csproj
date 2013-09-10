@@ -80,8 +80,6 @@
     <Content Include="css\left.css" />
     <Content Include="css\main.css" />
     <Content Include="css\style.css" />
-    <Content Include="home.aspx" />
-    <Content Include="IceMxIfame.html" />
     <Content Include="img\game\bg.jpg" />
     <Content Include="img\game\move.png" />
     <Content Include="img\game\jiangshi.png" />
@@ -114,19 +112,10 @@
     <Content Include="lib\I.Framework.Json.dll" />
     <Content Include="lib\MySql.Data.dll" />
     <Content Include="lib\System.Data.SQLite.DLL" />
-    <Content Include="Print.html" />
-    <Content Include="Print2.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ajax\ajax.ashx.cs">
       <DependentUpon>ajax.ashx</DependentUpon>
-    </Compile>
-    <Compile Include="home.aspx.cs">
-      <DependentUpon>home.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="home.aspx.designer.cs">
-      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
     <Compile Include="js\iceMx2\IceMx2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
