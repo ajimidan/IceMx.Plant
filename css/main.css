@@ -1,0 +1,141 @@
+﻿a { text-decoration: none; }
+
+body, html, form { margin: 0px; }
+
+.b1 { border: 1px solid #cccccc; }
+
+.b2 { border: 1px solid #dddddd; }
+
+.bNoTop { border-top: none; }
+
+.bNoBottom { border-bottom: none; }
+
+.bTop { border-left: none; border-right: none; border-bottom: none; }
+
+/*.bg1 { background:#000000 url(../assets/top_1.jpg) repeat-x 0px 0px;
+}*/
+.bg1 { background: #f8f8f8; }
+
+.bg2 a { color: #333333; text-decoration: none; margin: 0px 10px; }
+
+    .bg2 a:hover { color: #000000; text-decoration: underline; }
+
+
+.bg2 { background-color: #eeeeee; }
+
+.c { margin-left: auto; margin-right: auto; }
+
+.w80 { width: 80px; }
+
+.w100 { width: 100px; }
+
+.w200 { width: 200px; }
+
+.w300 { width: 300px; }
+
+.w400 { width: 400px; }
+
+.w500 { width: 500px; }
+
+.w600 { width: 600px; }
+
+.w700 { width: 700px; }
+
+.h40 { height: 40px; line-height: 40px; }
+
+.h25 { height: 25px; line-height: 25px; }
+
+.h80 { height: 80px; }
+
+.h100 { height: 100px; }
+
+.h200 { height: 200px; }
+
+.h300 { height: 300px; }
+
+.h400 { height: 400px; }
+
+.mt100 { margin-top: 100px; }
+
+.mt200 { margin-top: 200px; }
+
+.pd10 { padding: 10px; }
+
+.ll { float: left; }
+
+.rr { float: right; }
+
+.clear { clear: both; }
+
+
+.alignR { text-align: right; }
+
+.alignL { text-align: left; }
+
+.alignC { text-align: center; }
+
+
+.content { padding:10px;}
+
+.tb1 { width: 100%; border-collapse: collapse; }
+
+    .tb1 th { background-color: #f8f8f8; border: 1px solid #cccccc; height: 23px; padding: 8px; }
+
+    .tb1 td { border: 1px solid #cccccc; padding: 8px; background: #EEEEEE; }
+    .tb1 td a {  padding:3px; }
+    .tb1 td a:hover {  background-color:#60b0a3 }
+
+.error { font-weight: bold; color: red; }
+
+.bg_left { background: #F0F0F0; }
+
+    .bg_left a { color: #666666; text-decoration: none; }
+
+        .bg_left a:hover { color: #333333; text-decoration: underline; }
+
+.bg_right { background: #F0F0F0; }
+
+.inp_tab { background: #F8F8F8; padding: 20px; }
+
+    .inp_tab td { padding: 5px 0px; }
+
+.red { color: #be2d2d; }
+
+.bold { font-weight: bold; }
+
+
+.btn { display: inline-block; line-height: 30px; height: 30px; border: 1px solid #cccccc; padding: 0px 10px 0px 10px; background-color: #f8f8f8; text-decoration: none; vertical-align: middle; border-radius: 5px; cursor: pointer; text-decoration:none; color: #666666}
+.btn:hover { background-color: #eeeeee; text-decoration: none;color:#000000}
+
+.btnG { background-color: #60b0a3; }
+.btnG:hover { background-color: #57a598; }
+
+.btnY { background-color: #c6bc53; }
+.btnY:hover { background-color: #b1a84b; }
+
+#ice-page { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #B2B2B2; font-family: Arial,Helvetica,sans-serif; font-size: 12px; margin: 10px 0; overflow: hidden; padding: 18px 10px;}
+
+    #ice-page font { border: 1px solid #E7ECF0; color: #000000; margin: 0 2px; padding: 5px 8px; text-decoration: none; cursor: pointer; }
+
+        #ice-page font.no_bor { border: 0px; cursor: default; }
+        #ice-page font:hover.no_bor { border: 0px; background: none; }
+        #ice-page font.click { font-size: 14px; font-weight: bold; }
+        #ice-page font:hover { background: #e7ecf0; }
+
+
+.num_btn { background: none repeat scroll 0 0 #EEEEEE; border: 1px solid #E7ECF0; color: #333333; cursor: pointer; font-family: Arial,Helvetica,sans-serif; font-size: 12px; height: 24px; line-height: 14px; margin: 0 4px; overflow: hidden; padding: 0; text-align: center; vertical-align: middle; width: 40px; }
+
+
+#ice-page font .num_inp { border: 1px solid #E7ECF0; font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-weight: bold; height: 24px; line-height: 24px; margin: 0 4px; overflow: hidden; padding: 0; text-align: center; vertical-align: middle; width: 30px; }
+
+.top_div{ height:80px; background: url(../assets/logo_bg.png) repeat-x left top; border-bottom: #424242 solid 1px;}
+.p20{ padding:20px; overflow:hidden}
+.radio input{padding:0px; margin:2px 4px 0px 20px; overflow:hidden; float:left; width:14px; height:14px; display: block; vertical-align:middle}.radio label{float:left;}
+
+
+
+.del_btn { width: 40px; height: 40px; background: url(../img/icons/error.gif) no-repeat center center #4586d8; cursor: pointer; *cursor: hand;
+           display: block; position: absolute; z-index: 200; top: 0px; right: 0px; }
+
+.window .openbox, .window .windowbox { z-index: 200; position: relative; background-color: #FFF; background-attachment: inherit; }
+.windowbox { padding: 10px 10px 20px 10px; -webkit-box-shadow: #666 0px 0px 8px; -moz-box-shadow: #666 0px 0px 8px; box-shadow: #666 0px 0px 8px; margin: 0 auto; z-index: 100; }

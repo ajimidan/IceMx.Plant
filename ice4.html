@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    
+    <script src="js/iceMx2/jquery-1.7.2.js"></script>
+    <script src="js/iceMx2/IceMx2.js"></script>
+    <script src="js/iceMx2/IceMx2.Event.js"></script>
+    <script src="js/iceMx2/IceMx2.Mvc.js"></script>
+    <script src="js/iceMx2/IceMx2.Game.js"></script>
+    <script src="js/iceMx2/IceMx2.Ui.js"></script>
+    <script src="js/mvc/BaseController.js"></script>
+    <link href="css/main.css" rel="stylesheet" />
+    <style>
+        body { font-size: 14px; }
+    </style>
+    <script>
+
+        var plant;
+
+        $i.Mvc.Get("Plant");
+
+        $i.Event.AddEvent("MvcLoadOver", function () {
+            plant = new PlantController();
+            plant.Init().appendTo("#ddd");
+        });
+     
+    </script>
+</head>
+<body >
+    <h1>Js Mvc 模式体验</h1>
+    <div style="border: 1px solid #cccccc; padding: 5px;">
+        <span><b>用 Mvc 模式实现一个植物大战僵尸的雏形</b></span>
+        <div style="background-color: #f8f8f8; padding: 10px;">
+        </div>
+        <br />
+    </div>
+    <div id="ddd" style="margin-left:auto; margin-right:auto;width:1000px;">
+
+    </div>
+</body>
+</html>

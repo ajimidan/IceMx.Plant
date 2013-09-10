@@ -1,0 +1,44 @@
+﻿<div id="icePlantView">
+
+    <div id="icePlantPanelView" style=" cursor:pointer; border: 2px solid green; height: 681px; width: 812px;">
+        <div id="icePlantPanelZhiWuIco" style="height:80px; background-color:#68160b;border-bottom:3px solid black;">
+             <div class="ll" ><img src="/img/game/myYangGuang.jpg" style="width:70px;height:80px;" />
+                 <div id="icePlantNowPoint" style="font-weight:bold; z-index:300; margin-top:-28px;  text-align:center;  background-color:#fff;width:70px;height:20px;">25</div>
+             </div>
+        </div>
+        <div style="background-image: url(/img/game/bg.jpg); height:600px; ">
+            <div class="ll"  style="height:600px; width:10px; background-color:#68160b;border-right:2px solid black;color:#bfac45"></div>
+            <div id="icePlantPanelZhanChang" class="ll" style="position: relative;   height: 600px; width: 800px;">
+            </div>
+        </div>
+    </div>
+
+
+    <!--植物-->
+    <div id="icePlantWanDouBody" style="width: 100px; height: 100px;">
+        <img src="../../../img/game/zhiwu.png" style="width: 90px; height: 90px;" />
+    </div>
+    <!--植物-->
+    <div id="icePlantXiangRiKuiBody" style="width: 100px; height: 100px;">
+        <img src="../../../img/game/xiangRiKui.png" style="width: 90px; height: 90px;" />
+    </div>
+
+    <!--僵尸-->
+    <!-- <div id="icePlantJiangShiBody" style="border:1px solid blue; background-color:blue; width:100px; height:100px;">
+        <img src="../../../img/game/jiangshi.png" style="width:100px;height:100px;" />
+    </div>-->
+    <div id="icePlantJiangShiBody" style="background-image: url(/img/game/move2.png); background-position-y: -80px; width: 40px; height: 80px;">
+    </div>
+
+    <!--子弹-->
+    <div id="icePlantZiDanBody" style="z-index: 999; width: 35px; height: 35px; position: absolute;">
+        <img src="../../../img/game/zidan.png" style="width: 35px; height: 35px;" />
+    </div>
+
+    <!--阳光-->
+    <div id="icePlantYangGuangBody" style="cursor: pointer; z-index: 999; width: 86px; height: 88px; position: absolute;">
+        <img src="../../../img/game/yangGuang.png" style="width: 86px; height: 88px;" />
+    </div>
+
+</div>
+

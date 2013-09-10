@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E3E4EC7F-5E68-40BC-AFAD-A0B9A69B9E9C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IceMx</RootNamespace>
+    <AssemblyName>IceMx</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="I.Framework.Common">
+      <HintPath>..\lib\I.Framework.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="I.Framework.DataBase">
+      <HintPath>..\lib\I.Framework.DataBase.dll</HintPath>
+    </Reference>
+    <Reference Include="I.Framework.Enumerations">
+      <HintPath>..\lib\I.Framework.Enumerations.dll</HintPath>
+    </Reference>
+    <Reference Include="I.Framework.Json">
+      <HintPath>..\lib\I.Framework.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\lib\System.Data.SQLite.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\left.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\style.css" />
+    <Content Include="home.aspx" />
+    <Content Include="IceMxIfame.html" />
+    <Content Include="img\game\bg.jpg" />
+    <Content Include="img\game\move.png" />
+    <Content Include="img\game\jiangshi.png" />
+    <Content Include="img\game\move2.png" />
+    <Content Include="img\game\xiangRiKui.png" />
+    <Content Include="img\game\yangGuang2.png" />
+    <Content Include="img\game\zhiwu2.png" />
+    <Content Include="img\game\zhiwu3.png" />
+    <Content Include="img\game\zidan.png" />
+    <Content Include="img\game\zhiwu.png" />
+    <Content Include="img\game\ziDan2.png" />
+    <Content Include="img\game\ziDan3.png" />
+    <Content Include="img\game\yangGuang.PNG" />
+    <Content Include="img\game\myYangGuang.jpg" />
+    <Content Include="js\iceMx2\IceMx2.Explorer.js" />
+    <Content Include="js\iceMx2\IceMx2.Frame.js" />
+    <Content Include="js\iceMx2\IceMx2.js" />
+    <Content Include="js\iceMx2\IceMx2.Mvc.js" />
+    <Content Include="js\iceMx2\IceMx2.Ui.js" />
+    <Content Include="js\iceMx2\jquery-1.7.2.js" />
+    <Content Include="js\mvc\controller\PlantController.js" />
+    <Content Include="js\mvc\BaseController.js" />
+    <Content Include="js\jquery.validate.js" />
+    <Content Include="js\mvc\model\PlantModel.js" />
+    <Content Include="js\mvc\view\PlantView.shtml" />
+    <Content Include="ice4.html" />
+    <Content Include="lib\I.Framework.Common.dll" />
+    <Content Include="lib\I.Framework.DataBase.dll" />
+    <Content Include="lib\I.Framework.Enumerations.dll" />
+    <Content Include="lib\I.Framework.Json.dll" />
+    <Content Include="lib\MySql.Data.dll" />
+    <Content Include="lib\System.Data.SQLite.DLL" />
+    <Content Include="Print.html" />
+    <Content Include="Print2.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ajax\ajax.ashx.cs">
+      <DependentUpon>ajax.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="js\iceMx2\IceMx2.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="js\iceMx2\IceMx2.Event.js" />
+    <Content Include="js\iceMx2\IceMx2.Game.js" />
+    <Content Include="ajax\ajax.ashx" />
+    <None Include="Properties\PublishProfiles\shikuAdmin.pubxml" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4303</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1476/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

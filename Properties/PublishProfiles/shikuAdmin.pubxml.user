@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ajax/ajax.ashx">
+      <publishTime>07/17/2013 11:21:27</publishTime>
+    </File>
+    <File Include="assets/avatar.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/close.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/dialog_bg.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/actions_small/Pencil.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/actions_small/Preferences.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/actions_small/Trash.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/118.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/123.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/14.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/18.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/2.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/21.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/25.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/27.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/3.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/36.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/42.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/54.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/75.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/80.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/dashboard/81.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/notifications/download.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/notifications/error.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/notifications/info.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/notifications/message.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/notifications/print.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/notifications/purchase.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/notifications/secure.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/notifications/success.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/notifications/tip.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/notifications/warning.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/small_icons_3/coin.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/small_icons_3/dashboard.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/small_icons_3/media.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/small_icons_3/notes.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/small_icons_3/posts.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/small_icons_3/settings.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/icons/small_icons_3/users.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/iphone-style-checkboxes/off.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/iphone-style-checkboxes/on.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/iphone-style-checkboxes/slider.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/loginbg.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/login_bg_stripe.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/logo.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/logologin.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/logo_bg.png">
+      <publishTime>07/19/2013 18:29:52</publishTime>
+    </File>
+    <File Include="assets/menu_arrow.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/menu_current.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/menu_spacer.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/stripe.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="assets/top_1.jpg">
+      <publishTime>07/17/2013 11:00:17</publishTime>
+    </File>
+    <File Include="assets/ui-icons.png">
+      <publishTime>07/16/2013 15:57:52</publishTime>
+    </File>
+    <File Include="bin/I.Framework.Common.dll">
+      <publishTime>07/15/2013 10:41:51</publishTime>
+    </File>
+    <File Include="bin/I.Framework.DataBase.dll">
+      <publishTime>07/15/2013 10:41:51</publishTime>
+    </File>
+    <File Include="bin/I.Framework.Enumerations.dll">
+      <publishTime>07/15/2013 10:41:51</publishTime>
+    </File>
+    <File Include="bin/I.Framework.Json.dll">
+      <publishTime>06/20/2013 17:54:53</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>07/10/2013 16:46:17</publishTime>
+    </File>
+    <File Include="bin/shiku.Base.dll">
+      <publishTime>07/24/2013 09:20:25</publishTime>
+    </File>
+    <File Include="bin/shiku.Common.dll">
+      <publishTime>07/26/2013 11:34:54</publishTime>
+    </File>
+    <File Include="bin/shiku.Model.dll">
+      <publishTime>08/10/2013 17:40:50</publishTime>
+    </File>
+    <File Include="bin/shikuAdmin.dll">
+      <publishTime>08/10/2013 17:42:43</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.DLL">
+      <publishTime>06/20/2013 17:54:53</publishTime>
+    </File>
+    <File Include="config/shiKuConfig.xml">
+      <publishTime>08/09/2013 18:09:33</publishTime>
+    </File>
+    <File Include="css/left.css">
+      <publishTime>07/20/2013 16:35:36</publishTime>
+    </File>
+    <File Include="css/login.css">
+      <publishTime>07/26/2013 17:26:45</publishTime>
+    </File>
+    <File Include="css/main.css">
+      <publishTime>08/05/2013 15:56:45</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>07/20/2013 09:42:24</publishTime>
+    </File>
+    <File Include="db/function.sql">
+      <publishTime>07/15/2013 17:45:35</publishTime>
+    </File>
+    <File Include="frm/branch/accountList.aspx">
+      <publishTime>08/09/2013 17:51:47</publishTime>
+    </File>
+    <File Include="frm/branch/addAcount.aspx">
+      <publishTime>08/10/2013 14:55:31</publishTime>
+    </File>
+    <File Include="frm/branch/branchList.aspx">
+      <publishTime>08/10/2013 15:28:01</publishTime>
+    </File>
+    <File Include="frm/chooseDb.aspx">
+      <publishTime>07/26/2013 17:35:22</publishTime>
+    </File>
+    <File Include="frm/common/err.aspx">
+      <publishTime>07/09/2013 18:37:38</publishTime>
+    </File>
+    <File Include="frm/customer/add.aspx">
+      <publishTime>07/22/2013 15:52:52</publishTime>
+    </File>
+    <File Include="frm/customer/detail.aspx">
+      <publishTime>07/22/2013 10:57:10</publishTime>
+    </File>
+    <File Include="frm/customer/list.aspx">
+      <publishTime>07/26/2013 17:26:45</publishTime>
+    </File>
+    <File Include="frm/db/add.aspx">
+      <publishTime>08/07/2013 09:49:58</publishTime>
+    </File>
+    <File Include="frm/db/back.aspx">
+      <publishTime>07/27/2013 10:27:47</publishTime>
+    </File>
+    <File Include="frm/db/index.aspx">
+      <publishTime>07/17/2013 18:59:41</publishTime>
+    </File>
+    <File Include="frm/log/log.aspx">
+      <publishTime>07/19/2013 18:29:52</publishTime>
+    </File>
+    <File Include="frm/log/logSellAdd.aspx">
+      <publishTime>07/16/2013 17:14:30</publishTime>
+    </File>
+    <File Include="frm/log/logSellAdd1.aspx">
+      <publishTime>07/19/2013 18:29:52</publishTime>
+    </File>
+    <File Include="frm/log/logSellAddAccount.aspx">
+      <publishTime>07/19/2013 18:29:52</publishTime>
+    </File>
+    <File Include="frm/log/logSellAddProduct.aspx">
+      <publishTime>07/19/2013 18:29:52</publishTime>
+    </File>
+    <File Include="frm/log/logSellList.aspx">
+      <publishTime>07/18/2013 18:13:07</publishTime>
+    </File>
+    <File Include="frm/log/logSellListNoCreate.aspx">
+      <publishTime>07/17/2013 09:36:44</publishTime>
+    </File>
+    <File Include="frm/person/personAdd.aspx">
+      <publishTime>07/26/2013 17:36:29</publishTime>
+    </File>
+    <File Include="frm/person/personCountSet.aspx">
+      <publishTime>08/07/2013 15:22:18</publishTime>
+    </File>
+    <File Include="frm/person/personList.aspx">
+      <publishTime>08/07/2013 09:43:31</publishTime>
+    </File>
+    <File Include="frm/phone/list.aspx">
+      <publishTime>08/09/2013 17:49:32</publishTime>
+    </File>
+    <File Include="frm/phone/upload.aspx">
+      <publishTime>08/05/2013 16:03:13</publishTime>
+    </File>
+    <File Include="frm/pubu.aspx">
+      <publishTime>07/30/2013 14:53:01</publishTime>
+    </File>
+    <File Include="frm/system/quite.aspx">
+      <publishTime>07/20/2013 17:07:03</publishTime>
+    </File>
+    <File Include="frm/tomCat/productAdd.aspx">
+      <publishTime>07/26/2013 17:04:29</publishTime>
+    </File>
+    <File Include="frm/tomCat/productList.aspx">
+      <publishTime>08/09/2013 17:48:21</publishTime>
+    </File>
+    <File Include="frm/tomCat/productListForSearch.aspx">
+      <publishTime>08/10/2013 14:55:30</publishTime>
+    </File>
+    <File Include="home.aspx">
+      <publishTime>08/09/2013 17:54:58</publishTime>
+    </File>
+    <File Include="IceMxIfame.html">
+      <publishTime>07/20/2013 17:51:49</publishTime>
+    </File>
+    <File Include="img/bg1.jpg">
+      <publishTime>07/24/2013 11:15:20</publishTime>
+    </File>
+    <File Include="img/bg10.jpg">
+      <publishTime>07/24/2013 11:30:12</publishTime>
+    </File>
+    <File Include="img/bg11.jpg">
+      <publishTime>07/24/2013 11:30:12</publishTime>
+    </File>
+    <File Include="img/bg12.jpg">
+      <publishTime>07/24/2013 11:35:49</publishTime>
+    </File>
+    <File Include="img/bg13.jpg">
+      <publishTime>07/24/2013 11:35:49</publishTime>
+    </File>
+    <File Include="img/bg14.jpg">
+      <publishTime>07/24/2013 11:35:49</publishTime>
+    </File>
+    <File Include="img/bg15.jpg">
+      <publishTime>07/24/2013 11:35:49</publishTime>
+    </File>
+    <File Include="img/bg16.jpg">
+      <publishTime>07/24/2013 11:35:49</publishTime>
+    </File>
+    <File Include="img/bg17.jpg">
+      <publishTime>07/24/2013 11:35:49</publishTime>
+    </File>
+    <File Include="img/bg18.jpg">
+      <publishTime>07/24/2013 11:35:49</publishTime>
+    </File>
+    <File Include="img/bg19.jpg">
+      <publishTime>07/24/2013 11:35:49</publishTime>
+    </File>
+    <File Include="img/bg2.jpg">
+      <publishTime>07/24/2013 11:30:12</publishTime>
+    </File>
+    <File Include="img/bg20.jpg">
+      <publishTime>07/24/2013 11:35:49</publishTime>
+    </File>
+    <File Include="img/bg21.jpg">
+      <publishTime>07/24/2013 11:35:49</publishTime>
+    </File>
+    <File Include="img/bg22.jpg">
+      <publishTime>07/24/2013 11:35:49</publishTime>
+    </File>
+    <File Include="img/bg23.jpg">
+      <publishTime>07/24/2013 11:35:47</publishTime>
+    </File>
+    <File Include="img/bg24.jpg">
+      <publishTime>07/24/2013 14:35:51</publishTime>
+    </File>
+    <File Include="img/bg25.jpg">
+      <publishTime>07/24/2013 14:35:51</publishTime>
+    </File>
+    <File Include="img/bg26.jpg">
+      <publishTime>07/24/2013 14:35:51</publishTime>
+    </File>
+    <File Include="img/bg27.jpg">
+      <publishTime>07/24/2013 14:35:51</publishTime>
+    </File>
+    <File Include="img/bg28.jpg">
+      <publishTime>07/24/2013 14:35:51</publishTime>
+    </File>
+    <File Include="img/bg29.jpg">
+      <publishTime>07/24/2013 14:35:51</publishTime>
+    </File>
+    <File Include="img/bg3.jpg">
+      <publishTime>07/24/2013 11:30:12</publishTime>
+    </File>
+    <File Include="img/bg30.jpg">
+      <publishTime>07/24/2013 14:35:51</publishTime>
+    </File>
+    <File Include="img/bg4.jpg">
+      <publishTime>07/24/2013 11:30:12</publishTime>
+    </File>
+    <File Include="img/bg5.jpg">
+      <publishTime>07/24/2013 11:30:12</publishTime>
+    </File>
+    <File Include="img/bg6.jpg">
+      <publishTime>07/24/2013 11:30:12</publishTime>
+    </File>
+    <File Include="img/bg7.jpg">
+      <publishTime>07/24/2013 11:30:12</publishTime>
+    </File>
+    <File Include="img/bg8.jpg">
+      <publishTime>07/24/2013 11:30:12</publishTime>
+    </File>
+    <File Include="img/bg9.jpg">
+      <publishTime>07/24/2013 11:30:12</publishTime>
+    </File>
+    <File Include="img/btn_hover.png">
+      <publishTime>07/10/2013 17:58:50</publishTime>
+    </File>
+    <File Include="img/icons/aswer_logo.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/close_btn.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/del_btn.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/eroor.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/error.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/error.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/error_shadow.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/error_shadow.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/error_shadow_hover.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_approve.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_approve.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_breadcrumb.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_bullet.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_cross_sml.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_delete.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_edit.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_error.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_info.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_missing.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_square_close.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_success.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_ticklist.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_unapprove.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/icon_warning.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/ico_add.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/ico_bus.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/ico_del.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/ico_del.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/ico_del_on.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/ico_edit.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/ico_edit.png">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/max_btn.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/message_color.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/message_gray.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/min_btn.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_cf.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_cf_off.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_jc.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_jc_off.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_sr.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_sr_off.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_st.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_st_off.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_tf.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_tf_off.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_tz.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_tz_off.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_wdk.gif">
+      <publishTime>08/05/2013 15:56:15</publishTime>
+    </File>
+    <File Include="img/icons/msg_wdk_off.gif">
+      <publishTime>08/05/2013 15:56:16</publishTime>
+    </File>
+    <File Include="img/icons/ok_btn.gif">
+      <publishTime>08/05/2013 15:56:16</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>08/07/2013 09:41:40</publishTime>
+    </File>
+    <File Include="js/ice/Ice.js">
+      <publishTime>08/05/2013 15:20:33</publishTime>
+    </File>
+    <File Include="js/ice/IceJs.js">
+      <publishTime>07/24/2013 10:44:37</publishTime>
+    </File>
+    <File Include="js/ice/IceMx.js">
+      <publishTime>08/09/2013 18:39:14</publishTime>
+    </File>
+    <File Include="js/ice/IceMx.min.js">
+      <publishTime>08/05/2013 17:19:12</publishTime>
+    </File>
+    <File Include="js/ice/IceRiQi.js">
+      <publishTime>07/20/2013 16:52:27</publishTime>
+    </File>
+    <File Include="js/ice/jquery-1.7.2.js">
+      <publishTime>07/09/2013 10:31:21</publishTime>
+    </File>
+    <File Include="js/ice/log4.js">
+      <publishTime>07/18/2013 14:51:09</publishTime>
+    </File>
+    <File Include="js/ice/view/riqi.html">
+      <publishTime>07/09/2013 10:31:22</publishTime>
+    </File>
+    <File Include="js/jquery.validate.js">
+      <publishTime>07/17/2013 12:05:32</publishTime>
+    </File>
+    <File Include="mst/base.master">
+      <publishTime>08/09/2013 18:03:47</publishTime>
+    </File>
+    <File Include="mst/main.Master">
+      <publishTime>08/09/2013 17:55:29</publishTime>
+    </File>
+    <File Include="mst/outIceFrame.Master">
+      <publishTime>08/09/2013 18:01:45</publishTime>
+    </File>
+    <File Include="TestConnectionString.aspx">
+      <publishTime>07/09/2013 16:48:54</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/10/2013 17:40:52</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
