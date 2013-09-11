@@ -1,0 +1,5 @@
+D:\Documents\GitHub\IceMx.Plant\obj\Debug\IceMx.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\IceMx.Plant\bin\IceMx.dll
+D:\Documents\GitHub\IceMx.Plant\bin\IceMx.pdb
+D:\Documents\GitHub\IceMx.Plant\obj\Debug\IceMx.dll
+D:\Documents\GitHub\IceMx.Plant\obj\Debug\IceMx.pdb

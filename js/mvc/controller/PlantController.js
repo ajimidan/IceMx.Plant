@@ -25,18 +25,21 @@
 
     //#region 类定义
     function ZhiWuIco(id, body, config) {
-        var cl = body.clone().css({ width: 80, height: 80, "border": "1px solid black", "margin-left": "-1px" }).addClass("ll");
+        var cl = body.clone().css({width: 70, height: 76, "border": "1px solid black", "margin-left": "-1px" }).addClass("ll");
         cl.find("img").css({ width: 50, height: 50 });
-        cl.append("<div style='color:yellow;font-weight:bold;text-align:center'>" + config.yangGuang + "</div>")
+        cl.append("<div style='color:yellow;font-weight:bold;text-align:center'>" + config.yangGuang + "</div>");
+        cl.append("<div id='bg' style='background-color:#fff;width:70px;height:75px;position:absolute;bottom:0px;opacity:0.6'></div>");
+
         this.body = cl;
         this.yangGuang = config.yangGuang;
         this.id = id;
+        this.ready = 1;
         var _self = this;
 
         this.body.click(function (e) {
 
             if (CanPut(_self.yangGuang)) {
-                _self.body.animate({ "opacity": 0.2 }, 200);
+                //_self.body.animate({ "opacity": 0.2 }, 200);
                 var newIco = MakeIco(_self.id, _self.body);
                 newIco.body = _self.body.find("img").clone().css({ "width": 80, "height": 80, "position": "absolute" }).hide().appendTo($zhanChang);
                 $body.NowZhiwuIco = newIco;
@@ -45,8 +48,14 @@
         })
 
         $i.Common.AddBodyClick(function () {
-            _self.body.animate({ "opacity": 1 }, 200);
+            //_self.body.animate({ "opacity": 0.8 }, 200);
         })
+
+        //this.body.css({ "background-color": "#ccc", "opacity": 0.8 });
+        this.ReSet = function () {
+      
+            this.body.find("#bg").css("height", "20px");
+        }
     }
     function WanDou(config) {
         this.body = config.body.clone();
@@ -285,8 +294,8 @@
                 var zhiwu = MakeZhiWu($body.NowZhiwuIco.id, { x: gameP.x, y: gameP.y });
                 zhiwu.body.show().css({ "position": "absolute", left: p.x, top: p.y }).appendTo($zhanChang);
 
-                SubPoint($body.NowZhiwuIco.yangGuang)
-
+                SubPoint($body.NowZhiwuIco.yangGuang);
+                $body.NowZhiwuIco.ReSet();
                 setTimeout(function () {
                     $body.NowZhiwuIco = null;
                 }, 100);

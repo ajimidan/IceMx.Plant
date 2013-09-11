@@ -15,12 +15,12 @@
 
 
     <!--植物-->
-    <div id="icePlantWanDouBody" style="width: 100px; height: 100px;">
-        <img src="../../../img/game/zhiwu.png" style="width: 90px; height: 90px;" />
+    <div id="icePlantWanDouBody" style="width: 100px; height: 100px; position:relative">
+        <div style="padding:3px;"><img src="../../../img/game/zhiwu.png" style="width: 90px; height: 90px;" /></div>
     </div>
     <!--植物-->
-    <div id="icePlantXiangRiKuiBody" style="width: 100px; height: 100px;">
-        <img src="../../../img/game/xiangRiKui.png" style="width: 90px; height: 90px;" />
+    <div id="icePlantXiangRiKuiBody" style="width: 100px; height: 100px;position:relative">
+        <div style="padding:3px;"><img src="../../../img/game/xiangRiKui.png" style="width: 90px; height: 90px;" /></div>
     </div>
 
     <!--僵尸-->

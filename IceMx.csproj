@@ -106,24 +106,13 @@
     <Content Include="js\mvc\model\PlantModel.js" />
     <Content Include="js\mvc\view\PlantView.shtml" />
     <Content Include="ice4.html" />
-    <Content Include="lib\I.Framework.Common.dll" />
-    <Content Include="lib\I.Framework.DataBase.dll" />
-    <Content Include="lib\I.Framework.Enumerations.dll" />
-    <Content Include="lib\I.Framework.Json.dll" />
-    <Content Include="lib\MySql.Data.dll" />
-    <Content Include="lib\System.Data.SQLite.DLL" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ajax\ajax.ashx.cs">
-      <DependentUpon>ajax.ashx</DependentUpon>
-    </Compile>
-    <Compile Include="js\iceMx2\IceMx2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="js\iceMx2\IceMx2.Event.js" />
     <Content Include="js\iceMx2\IceMx2.Game.js" />
-    <Content Include="ajax\ajax.ashx" />
     <None Include="Properties\PublishProfiles\shikuAdmin.pubxml" />
   </ItemGroup>
   <ItemGroup />
